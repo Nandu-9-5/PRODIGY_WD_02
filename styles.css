@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff; /* Light azure background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    color: #333; /* Darker text color for contrast */
+}
+
+header {
+    width: 100%;
+    background-color: #4682b4; /* Steel blue background color for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.stopwatch-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.stopwatch {
+    background: #ffffff; /* White background for the stopwatch */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333; /* Ensuring text is visible against white background */
+}
+
+.display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4682b4; /* Steel blue background for buttons */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #5a9bd4; /* Lighter blue on hover */
+}
+
+.pause-btn {
+    background-color: #ff4500; /* Orange-red background for pause button */
+}
+
+.pause-btn:hover {
+    background-color: #ff6347; /* Lighter orange-red on hover */
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
