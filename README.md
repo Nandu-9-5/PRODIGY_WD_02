@@ -13,4 +13,9 @@ This is a simple web-based stopwatch application created as my second project du
 
 ## link of the project:
 
-- 
+-  https://github.com/Nandu-9-5/PRODIGY_WD_02
+
+## Screenshot of the website:
+
+![Screenshot 2024-05-26 205942](https://github.com/Nandu-9-5/PRODIGY_WD_02/assets/168712637/9392a02f-438f-4cb6-91fd-3032a29403d4)
+
